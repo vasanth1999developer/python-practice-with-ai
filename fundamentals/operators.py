@@ -29,3 +29,45 @@ print("scamp"+"is a goog dog")
 age =8
 age +=8 # age = age+8
 print(age)
+
+
+# boolean operators
+
+condition1 = True
+condition2 = False
+
+print(condition1 and condition2)
+print(condition1 or condition2)
+print(not condition1)
+
+
+
+def is_adult(age):
+    if age >= 18:
+        return True
+    else:
+        return False
+
+def is_adult2(age):
+    return True if age >= 18 else False
+
+
+
+"beau"
+'beau'
+
+name = "beauty"
+phrase = "beauty is" + " a good girl"
+phrase2 = name+" is a good"
+
+name+=" is a good girl"
+
+print(name)
+
+aga = str(39)
+print(aga) # this is a string
+
+
+
+
+
