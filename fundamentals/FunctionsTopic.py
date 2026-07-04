@@ -1,4 +1,6 @@
 #Function
+import string
+
 
 def greet(name):
     return f"Hello, {name}!"
@@ -46,3 +48,26 @@ change_name(
 name
 )
 print(f"Outside function: {name}")  # Output: Outside function: Alice
+
+
+
+def talk(phrase):
+    print(phrase)
+
+    def word_count(phrase):
+
+            print(len(phrase.split()))
+            print(phrase.split())
+
+    def char_count(phrase):
+            count = 0
+            for char in phrase:
+                if  char in string.ascii_lowercase:
+                    count += 1
+                    print(char)
+            print(count)
+
+    word_count(phrase)
+    char_count(phrase)
+
+talk(" hELLO WORLD ")
