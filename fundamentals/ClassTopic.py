@@ -27,3 +27,4 @@ print(type(roger))  # Output: <class '__main__.Dog'>
 print(f"Name: {roger.name}, Age: {roger.age}")  # Output: Name: Roger, Age: 3
 
 print(roger.walk())  # Output: Walking...
+
